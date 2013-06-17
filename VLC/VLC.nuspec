@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <version>2.0.0</version>
+    <authors>VideoLAN</authors>
+    <owners>VideoLAN</owners>
+    <projectUrl>http://www.videolan.org/</projectUrl>
+    <iconUrl>http://images1.videolan.org/images/largeVLC.png</iconUrl>
+    <id>VLC</id>
+    <title>VideoLAN Client 2.0</title>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Video Player that supports many formats and features</description>
+  </metadata>
+</package>

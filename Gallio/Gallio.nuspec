@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Gallio</id>
+        <version>3.4.14.1</version>
+        <title>Gallio</title>
+        <authors>Gallio.org</authors>
+        <owners>MarkJohnson</owners>
+        <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+        <projectUrl>https://code.google.com/p/mb-unit/</projectUrl>
+        <iconUrl>https://code.google.com/p/mb-unit/logo?cct=1366235018</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>The Gallio Automation Platform is an open, extensible, and neutral system for .NET that provides a common object model, runtime services and tools (such as test runners) that may be leveraged by any number of test frameworks.</description>
+        <summary>The Gallio platform seeks to facilitate the creation of a rich ecosystem of interoperable testing tools produced by and for the community at large so as to address a far wider range of testing needs t</summary>
+        <releaseNotes>http://gallio.org/wiki/doku.php?id=release_notes</releaseNotes>
+        <copyright>copyright © 2013 (gallio.org).</copyright>
+        <tags>gallio unit test framework runner</tags>
+    </metadata>
+</package>

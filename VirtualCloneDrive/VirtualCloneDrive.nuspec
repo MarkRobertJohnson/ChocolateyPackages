@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <version>5.4.5.0</version>
+    <authors>SlySoft</authors>
+    <owners>MarkJohnson</owners>
+    <licenseUrl>http://www.slysoft.com/en/terms.html</licenseUrl>
+    <projectUrl>http://www.slysoft.com/en/virtual-clonedrive.html</projectUrl>
+    <iconUrl>http://www.slysoft.com/img/logo/logo_t_vcd.gif</iconUrl>
+    <id>VirtualCloneDrive</id>
+    <title>Virtual CloneDrive</title>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Virtual CloneDrive works and behaves just like a physical CD/DVD drive, however it exists only virtually. Image files generated with CloneDVD or CloneCD can be mounted onto a virtual drive from your hard-disk or from a network drive and used in the same manner as inserting them into a normal CD/DVD drive. 
+
+Probably the best virtual drive software, Virtual CloneDrive allows you to enjoy the freedom of a virtual drive and is completely free.</description>
+    <summary>Features
+Supports all common image formats such as ISO, BIN, CCD
+Supports up to 8 virtual drives at the same time
+Easy to use - just double-click an image file to mount as a drive
+Virtual CloneDri</summary>
+    <releaseNotes>Virtual CloneDrive 5.4.5.0: 2011 3 6
+- New: Improved DVD/HD-DVD/BD emulation
+- New: Added help menu to notification icon
+- New: Notification icon can be changed by the user
+- New: Support for harddisks with very large physical sectors (&gt; 2048 bytes)
+- Some minor changes and improvements
+- Updated languages</releaseNotes>
+  </metadata>
+</package>

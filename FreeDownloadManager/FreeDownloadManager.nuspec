@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>FreeDownloadManager</id>
+        <version>3.9.2.0</version>
+        <title>Free Download Manager</title>
+        <authors>Free Download Manager.ORG</authors>
+        <owners>Free Download Manager.ORG</owners>
+        <projectUrl>http://www.freedownloadmanager.org/index.htm</projectUrl>
+        <iconUrl>http://www.freedownloadmanager.org/new/img/fdm_box.gif</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>FDM accelerates downloads by splitting files into sections and then downloading them simultaneously. As a result download speed increases up to 600%, or even more! FDM can also resume broken downloads so you needn`t start downloading from the beginning after casual interruption.
+
+You can read what other community members say about the file you are going to download, and also leave your own opinion about the file you downloaded. In this way FDM users are always warned against useless or malicious files.
+
+Download video from video sites, such as Youtube, Google Video, etc. The video can then be saved in native .flv format or converted to one of more popular video formats.</description>
+        <summary>What is Free Download Manager? It is a powerful, easy-to-use and absolutely free download accelerator and manager. Moreover, FDM is 100% safe, open-source software distributed under GPL license. Warni</summary>
+        <releaseNotes>New features: 
+ [+] RTSP/MMS downloads.
+ [+] FDM saves list of downloads and other service data only when it's required.
+ [+] Auto update system for Firefox extension.
+ [*] Support of "Decrease traffic usage on browser activity" option for Firefox browser.
+ [-] Compatibility issue with Internet Explorer 10.
+ [-] Bug fixes.</releaseNotes>
+        <copyright>Copyright © 2004-2013. Free Download Manager.ORG. All rights reserved</copyright>
+        <tags>free download manager web files speed</tags>
+    </metadata>
+</package>

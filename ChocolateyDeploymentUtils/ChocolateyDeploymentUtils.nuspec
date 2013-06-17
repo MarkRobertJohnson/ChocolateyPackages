@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>ChocolateyDeploymentUtils</id>
+        <version>1.0.2</version>
+        <title>Chocolatey Deployment Utils</title>
+        <authors>mjohnson</authors>
+        <owners />
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Powershell module that provides utility functions that assist in deploying chocolatey packages</description>
+        <dependencies>
+            <dependency id="VirtualCloneDrive" version="5.4.5.0" />
+            <dependency id="PsGet" version="1.0.0" />
+        </dependencies>
+    </metadata>
+</package>

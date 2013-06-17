@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>PowerGUI</id>
+        <version>3.6.0.22</version>
+        <title>powerGUI</title>
+        <authors>Quest Software</authors>
+        <owners>Quest Software</owners>
+        <licenseUrl>http://powergui.org/servlet/KbServlet/download/3732-102-5883/PowerGUI_3.1_ReleaseNotes.htm</licenseUrl>
+        <projectUrl>http://powergui.org/index.jspa</projectUrl>
+        <iconUrl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash3/41605_149727361745986_1205874903_q.jpg</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>PowerGUI is a comprehensive solution helping you get the most of Windows PowerShell. The product has two components: 
+
+Administrative Console 
+Script Editor and debugger 
+PowerGUI Administrative Console is a graphical user interface for the Microsoft PowerShell scripting environment and runtime, bundled with an advanced PowerShell script editor.
+
+PowerGUI Administrative Console is designed to:
+
+Streamline PowerShell-based administration tasks by providing ready-made tools through a unified interface 
+Make the extensive capabilities of PowerShell accessible to users who are not comfortable with the text console environment 
+Help establish administration tiers by making specific tools available to specific groups of users, such as Active Directory administrators, help desk staff, and end users</description>
+        <summary>PowerGUI is a comprehensive solution helping you get the most of Windows PowerShell.</summary>
+        <releaseNotes>New features in PowerGUI 3.6: 
+•Full support for Microsoft PowerShell 3.0 
+•Support for Windows 8 and Windows Server 2012 as end-user platform 
+•Rapid access to online documentation from Administrative Console and Script Editor 
+•Highlight all instances of a code element in script 
+•Path suggestions and autocomplete in scripts 
+
+For more information, see the PowerGUI What's New document. 
+
+http://powergui.org/servlet/KbServlet/download/4081-102-6511/PowerGUI_3.6_ReleaseNotes.htm</releaseNotes>
+        <copyright>© 2013 Quest Software, Inc.</copyright>
+        <language>en-US</language>
+        <tags>powershell gui editor syntax highlighting auto complete intellisense</tags>
+    </metadata>
+</package>

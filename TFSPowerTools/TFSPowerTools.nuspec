@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <version>10.0.41206.0</version>
+    <authors>Microsoft</authors>
+    <owners>MarkJohnson</owners>
+    <licenseUrl>http://msdn.microsoft.com/cc300389.aspx</licenseUrl>
+    <projectUrl>http://visualstudiogallery.msdn.microsoft.com/c255a1e4-04ba-4f68-8f4e-cd473d6b971f</projectUrl>
+    <id>TFSPowerTools</id>
+    <title>Team Foundation Power Tools December 2011</title>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A plug-in to Visual Studio, Alerts Explorer provides a graphical user interface that supports flexible subscription of alerts based on check-in, work item change, or build completion.
+  
+Team Foundation Server Backups The tool can schedule backups for the following databases that your deployment of Team Foundation Server uses:
+•the configuration database 
+•the database for each team project collection 
+•the databases that Team Foundation Server uses in conjunction with SharePoint Products, if your deployment includes integration with SharePoint Products 
+•the databases that Team Foundation Server uses in conjunction with SQL Server Reporting Services, if your deployment includes reports</description>
+    <copyright>© 2012 Microsoft. All rights reserved.</copyright>
+  </metadata>
+</package>

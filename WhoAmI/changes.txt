@@ -1,0 +1,43 @@
+Whoami 2.0 beta 4
+=================
+09/01/2002
+Wallpaper bmp now stored in c: drive root so even most restricted user on windows 2000, NT and XP can generate and assign the file.
+
+
+Whoami 2.0 beta 5
+=================
+20/01/2002
+Two new options /extrasize and /extrafile to allow extra fixed information to be displayed after the dynamic info.
+
+whoami 2.0 beta 6
+=================
+12/03/2002
+Default wallpaper bmp now stored in personaldir retrieved from the registry. This is to
+cure the XP switch users, which pauses and stores multiple users and configs.
+/paperdir= directory that should be used to store the wallpaper.
+	   If this param is omitted, or blank, then it is stored in the current user's "my documents"
+	   if you set it to "windows", then the wallpaper is stored in the current windows directory.
+
+whoami 2.0 beta 7
+=================
+09/04/2002
+Registry key with no parameter, but ending in \ will cause whoami to read the default value.
+
+whoami 2.0 beta 8
+=================
+10/04/2002
+New parameter. /regkey= will cause the names of all values to be displayed.
+
+Colour picker now can take rgb values in decimal or hex.
+
+whoami 2.0 beta 9
+=================
+03/12/2002
+New param /autobg
+If whoami spots a non-whoami wallpaper when it is run, it will copy the current wallpaper into the paperdir (or current user's "my documents" if paperdir omitted) and call it "kewlit-bgimage.bmp" then use this as the base image to generate the new wallpaper.
+If whoami was called with an ini file, it will then modify the whoami.ini to include the new baseimage location.
+
+whoami 2.0 beta 9c
+==================
+30/07/2003
+Fixed paperdir routine. Wasn't correctly locating my documents.

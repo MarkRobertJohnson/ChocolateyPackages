@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>TFSPowerTools2012</id>
+        <version>11.0.60507.0</version>
+        <title>Microsoft Visual Studio Team Foundation Server 2012 Update 2 Power Tools</title>
+        <authors>Microsoft</authors>
+        <owners>MarkJohnson</owners>
+        <licenseUrl>http://msdn.microsoft.com/cc300389.aspx</licenseUrl>
+        <projectUrl>http://visualstudiogallery.msdn.microsoft.com/b1ef7eb2-e084-4cb8-9bc7-06c3bad9148f</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Prerequisites
+
+Best Practices Analyzer: install on the TFS Server (Application Tier)
+
+Process Template Editor: VS Pro and up
+
+Other: Team Explorer or VS Pro and up
+
+Note: VS Express users download Team Explorer for free to use the power tools (except for the Process Template Editor)
+
+ 
+
+Best Practices Analyzer
+
+A diagnostic tool that you can use to perform the following actions:
+•Verify that the deployment for Team Foundation Server is configured according to recommended best practices 
+•Identify the source of problems in an unhealthy deployment 
+•Take a snapshot of the configuration of a deployment 
+•Obtain usage data about the volume of data stored or accessed in the past 14 days. Includes specific information about database tables that have a tendency to grow and that may need to be reduced in size. 
+
+Check-in policies
+
+A Visual Studio add-in, located under the Team | Team Project Settings | Source Control menu. It adds the following checkin policies:
+
+
+Policy
+
+Description
+
+Custom Path Policy This policy scopes other policies to specific folders or file types 
+Forbidden Patterns Policy This policy prevents users from checking in files with fobidden filename patterns 
+Work Item Query Policy This policy allows you to specify a work item query whose results will be the only legal work items for a check-in to be associated with 
+
+Process Template Editor
+
+A Visual Studio add-in, located under the Tools menu. The Process Template Editor provides a graphical user interface for customizing work items (field, workflow and the form) and process templates.
+
+Storyboard Shapes
+
+This tool enables you to create shapes for the PowerPoint storyboarding add-in with custom resize logic.
+
+Team Explorer Enhancements
+
+This tool provides additional Visual Studio menu options and functions to support finding files under version control by status or wildcard, opening a folder using File Explorer from the Source Control Explorer context menu, and</description>
+        <summary>Power Tools are a set of enhancements, tools, and command-line utilities that increase productivity of Team Foundation Server scenarios.</summary>
+        <releaseNotes>This release supports •Visual Studio 2012 Update 1 
+•Visual Studio 2012 Update 2 
+•Team Foundation Server 2012 Update 1 
+•Team Foundation Server 2012 Update 2</releaseNotes>
+        <copyright>© 2012 Microsoft. All rights reserved.</copyright>
+    </metadata>
+</package>

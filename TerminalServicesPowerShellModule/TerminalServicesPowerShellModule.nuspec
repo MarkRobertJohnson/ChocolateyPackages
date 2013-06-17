@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>TerminalServicesPowerShellModule</id>
+        <version>1.0.0</version>
+        <title>Terminal Services PowerShell Module</title>
+        <authors>mjohnson</authors>
+        <owners>Shay</owners>
+        <licenseUrl>https://psterminalservices.codeplex.com/license</licenseUrl>
+        <projectUrl>https://psterminalservices.codeplex.com/</projectUrl>
+        <iconUrl>https://download-codeplex.sec.s-msft.com/Download?ProjectName=psterminalservices&amp;DownloadId=237295&amp;Build=20489</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Terminal Services PowerShell Module
+
+ The PSTerminalServices module contains functions to manage Terminal Services (including RemoteDesktop) sessions and processes.
+ Is is based on an open source project named Cassia (version 2.0.0.60), a .NET library for accessing the native Windows Terminal Services API. 
+
+ The following operations are supported on the local and a remote terminal server: 
+
+ 1. Enumerating terminal sessions and reporting session information including connection state, user name, client name, client display details, client-reported IP address, and client build number. 
+ 2. Logging off a session. 
+ 3. Disconnecting a session. 
+ 3. Displaying a message box in a session. 
+ 4. Enumerating all processes or processes for a specified session. 
+ 5. Killing a process.</description>
+        <copyright>2012</copyright>
+        <language>en-US</language>
+        <tags>powershell module terminal services</tags>
+    </metadata>
+</package>

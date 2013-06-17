@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <version>2.0.657.1</version>
+    <authors>Microsoft</authors>
+    <owners>MarkJohnson</owners>
+    <licenseUrl>http://go.microsoft.com/?linkid=4412892</licenseUrl>
+    <projectUrl>http://windows.microsoft.com/en-US/windows/products/security-essentials</projectUrl>
+    <id>MicrosoftSecurityEssentials</id>
+    <title>Microsoft Security Essentials</title>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Microsoft Security Essentials is a free* download from Microsoft that is simple to install, easy to use, and always kept up-to-date so you can be assured your PC is protected by the latest technology. 
+
+Microsoft Security Essentials runs quietly and efficiently in the background so you’re free to use your Windows-based PC the way you want—without interruptions or long computer wait times. 
+
+Before installing Microsoft Security Essentials, we recommend that you uninstall other antivirus software already running on your PC. Running more than one antivirus program at the same time can potentially cause conflicts that affect PC performance</description>
+    <releaseNotes>added the /runwgacheck to the installer</releaseNotes>
+    <copyright>© 2012 Microsoft</copyright>
+  </metadata>
+</package>

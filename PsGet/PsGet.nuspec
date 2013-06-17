@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>PsGet</id>
+        <version>1.0.4</version>
+        <title>PsGet</title>
+        <authors>mjohnson</authors>
+        <owners>codeassassin</owners>
+        <projectUrl>https://github.com/psget</projectUrl>
+        <iconUrl>https://secure.gravatar.com/avatar/d250b2ee5d896fd4e36b203884175785?s=420&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-org-420.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Set of commands to install PowerShell modules from central directory, local file or from the web.
+
+Features:
+1.Install modules from central directory
+2.Install modules from web or local file
+3.Install modules to user profile or for all users ( elevated access required )
+4.Install multifile modules from ZIP
+5.Import module after install
+6.Alter you profle to load module every time that PowerShell starts
+7.Execute Install.ps1 if found in module folder
+8.Tab completion for modules, ismo Ps</description>
+        <summary>Set of commands to install PowerShell modules from central directory, local file or from the web.</summary>
+        <releaseNotes>The module is now installed to "C:\Program Files (x86)\Common Files\Modules" and it is globally available to all users</releaseNotes>
+    </metadata>
+</package>

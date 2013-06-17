@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <version>0.2.0.1</version>
+    <authors>Mark Johnson</authors>
+    <owners>Mark Johnson</owners>
+    <licenseUrl>http://webflipscreensaver.codeplex.com/license</licenseUrl>
+    <projectUrl>http://webflipscreensaver.codeplex.com/</projectUrl>
+    <id>WebFlipScreenSaver</id>
+    <title>Web Flip Screen Saver</title>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Uses:
+* IT monitor sseveral websites
+* Aggregate disperate reports
+* Management status report</description>
+    <summary>A simple screen saver that allows any number of websites to be "flipped" through. Each web site has a customizable view duration, refresh interval, zoom percent and login information.</summary>
+    <releaseNotes>The Codeplex url changed</releaseNotes>
+    <copyright>2012 Mark Johnson</copyright>
+    <tags>web screen saver flip</tags>
+  </metadata>
+</package>

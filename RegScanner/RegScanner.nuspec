@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <version>1.85.0.0</version>
+    <authors>NirSoft</authors>
+    <owners>NirSoft</owners>
+    <licenseUrl>http://www.nirsoft.net/utils/regscanner.html</licenseUrl>
+    <projectUrl>http://www.nirsoft.net/utils/regscanner.html</projectUrl>
+    <iconUrl>http://www.nirsoft.net/utils/regscanner_icon.gif</iconUrl>
+    <id>RegScanner</id>
+    <title>RegScanner</title>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>RegScanner is a small utility that allows you to scan the Registry, find the desired Registry values that match to the specified search criteria, and display them in one list. After finding the Registry values, you can easily jump to the right value in RegEdit, simply by double-clicking the desired Registry item. You can also export the found Registry values into a .reg file that can be used in RegEdit.</description>
+    <summary>Advantages over RegEdit find of Windows
+RegScanner utility display the entire search result at once, so you don't have to press F3 in order to find the next value. 
+In addition to the standard strin</summary>
+    <releaseNotes>Version 1.85 
+Added option to exclude one or more keys from the Registry scanning. You can specify the Registry keys to exclude as comma-delimited list. By using this feature you can skip some major Registry keys (like HKLM\Software\Classes) to make the search much faster.</releaseNotes>
+    <copyright>Copyright (c) 2004 - 2011 Nir Soft</copyright>
+    <tags>windows registry fast search</tags>
+  </metadata>
+</package>
