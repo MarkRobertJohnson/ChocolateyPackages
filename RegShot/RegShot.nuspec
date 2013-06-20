@@ -1,7 +1,7 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
-    <version>1.8.3.1</version>
+    <version>1.9.0</version>
     <authors>murk</authors>
     <owners>maddes,regshot,xhmikosr</owners>
     <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
@@ -11,10 +11,14 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Regshot is an open-source (LGPL) registry compare utility that allows you to quickly take a snapshot of your registry and then compare it with a second one - done after doing system changes or install</description>
     <summary />
+	<iconUrl>http://njarb.com/wp-content/uploads/2012/06/RegshotPortable_128.png</iconUrl>
     <releaseNotes>"Fix" a bug  previous made.
 Slightly faster when scan.
 Build files update.
 Other changes by contributors.</releaseNotes>
     <tags>registry comparison snapshot</tags>
+	<dependencies>
+		<dependency id="7zip.commandline" />
+	</dependencies>
   </metadata>
 </package>
