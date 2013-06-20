@@ -1,24 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
-  <metadata>
-    <version>1.9.0</version>
-    <authors>murk</authors>
-    <owners>maddes,regshot,xhmikosr</owners>
-    <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
-    <projectUrl>http://sourceforge.net/projects/regshot/</projectUrl>
-    <id>RegShot</id>
-    <title>RegShot</title>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Regshot is an open-source (LGPL) registry compare utility that allows you to quickly take a snapshot of your registry and then compare it with a second one - done after doing system changes or install</description>
-    <summary />
-	<iconUrl>http://njarb.com/wp-content/uploads/2012/06/RegshotPortable_128.png</iconUrl>
-    <releaseNotes>"Fix" a bug  previous made.
-Slightly faster when scan.
-Build files update.
-Other changes by contributors.</releaseNotes>
-    <tags>registry comparison snapshot</tags>
-	<dependencies>
-		<dependency id="7zip.commandline" />
-	</dependencies>
-  </metadata>
+    <metadata>
+        <id>RegShot</id>
+        <version>1.9.0</version>
+        <title>RegShot</title>
+        <authors>maddes,regshot,xhmikosr</authors>
+        <owners>MarkRobertJohnson</owners>
+        <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+        <projectUrl>http://sourceforge.net/projects/regshot/</projectUrl>
+        <iconUrl>http://njarb.com/wp-content/uploads/2012/06/RegshotPortable_128.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Regshot is an open-source (LGPL) registry compare utility that allows you to quickly take a snapshot of your registry and then compare it with a second one - done after doing system changes or install</description>
+        <summary>Regshot is a small, free and open-source registry compare utility that allows you to quickly
+take a snapshot of your registry and then compare it with a second one - done after doing
+system changes</summary>
+        <releaseNotes>New to 1.9.0:
+x64 and Unicode versions.
+You can compare shots saved with different "UseLongRegHead" option.
+Loading ANSI hive files in Unicode builds and vice versa is not supported.</releaseNotes>
+        <copyright>2013</copyright>
+        <tags>registry comparison snapshot</tags>
+        <dependencies>
+            <dependency id="7zip.commandline" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="tools\chocolateyInstall.ps1" target="tools\chocolateyInstall.ps1" />
+    </files>
 </package>
