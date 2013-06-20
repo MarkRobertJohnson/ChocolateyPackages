@@ -1,16 +1,16 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
-  <metadata>
-    <version>2.0.8.0</version>
-    <authors>SHIROUZU Hiroaki</authors>
-    <owners>SHIROUZU Hiroaki</owners>
-    <licenseUrl>http://ipmsg.org/tools/fastcopy.html.en#license</licenseUrl>
-    <projectUrl>http://ipmsg.org/tools/fastcopy.html.en</projectUrl>
-    <iconUrl>http://ipmsg.org/cgi-bin/Count.cgi?df=fastcopy.dat</iconUrl>
-    <id>FastCopy</id>
-    <title>FastCopy</title>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>FastCopy is the Fastest Copy/Delete Software on Windows. 
+    <metadata>
+        <id>FastCopy</id>
+        <version>2.0.11.0</version>
+        <title>FastCopy</title>
+        <authors>SHIROUZU Hiroaki</authors>
+        <owners>SHIROUZU Hiroaki</owners>
+        <licenseUrl>http://ipmsg.org/tools/fastcopy.html.en#license</licenseUrl>
+        <projectUrl>http://ipmsg.org/tools/fastcopy.html.en</projectUrl>
+        <iconUrl>http://ipmsg.org/cgi-bin/Count.cgi?df=fastcopy.dat</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>FastCopy is the Fastest Copy/Delete Software on Windows. 
 
 It supports UNICODE and over MAX_PATH (260 byte) file pathnames. 
 
@@ -26,10 +26,16 @@ Include/Exclude Filter (UNIX Wildcard style) can be specified.
 It runs fast and does not hog resources, because MFC is not used. (Designed using Win32 API and C Runtime only) 
 
 You can modify this software, because all source code has been opened to the public in the BSD license.</description>
-    <summary>FastCopy is the Fastest Copy/Delete Software on Windows.</summary>
-    <releaseNotes>v2.08 Append selected folder to source field, if it is pushed OK button in Source Folder Select Dialog with pushing CTRL key. Fix save path history problem(v2.07 only)</releaseNotes>
-    <copyright>Copyright 2004-2011 SHIROUZU Hiroaki All rights reserved</copyright>
-    <language>en-US</language>
-    <tags>fast copy windows explorer</tags>
-  </metadata>
+        <summary>FastCopy is the Fastest Copy/Delete Software on Windows.</summary>
+        <releaseNotes>Updated package to download v2.11 of FastCopy
+
+v2.11 Fix to ignore command line and shell extension in English GUI mode 
+v2.10 Prevent hazy display on 120DPI mode of Vista/7. Fix to sometimes fail update copy with ACL/Stream. Enable to select updating span for information (250/500/1000ms). Show Job name to main window title. Add taskbar minimzie mode instead of tasktray. Add Post-process command condition. Misc refine.</releaseNotes>
+        <copyright>Copyright 2004-2011 SHIROUZU Hiroaki All rights reserved</copyright>
+        <language>en-US</language>
+        <tags>fast copy windows explorer</tags>
+    </metadata>
+    <files>
+        <file src="tools\chocolateyInstall.ps1" target="tools\chocolateyInstall.ps1" />
+    </files>
 </package>
