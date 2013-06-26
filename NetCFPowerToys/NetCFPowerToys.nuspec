@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>NetCFPowerToys</id>
+        <version>3.5.0</version>
+        <title>Microsoft .NET CF 3.5 Power Toys</title>
+        <authors>MarkRobertJohnson</authors>
+        <owners>MarkRobertJohnson</owners>
+        <iconUrl>https://dl.dropbox.com/s/j9n5rmfgkqkty3p/EidLogo.ico?dl=1</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Microsoft .NET CF 3.5 Power Toys</description>
+    </metadata>
+    <files>
+        <file src="tools\chocolateyInstall.ps1" target="tools\chocolateyInstall.ps1" />
+    </files>
+</package>
