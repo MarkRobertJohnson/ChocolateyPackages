@@ -131,6 +131,7 @@ function Exec-Process([string]$executablePath, [string]$arguments, [switch]$wait
 }
 
 #requires -version 2.0
+try {
 Add-Type @"
 public class Shift {
    public static int   Right(int x,   int count) { return x >> count; }
@@ -143,7 +144,9 @@ public class Shift {
    public static ulong  Left(ulong x, int count) { return x << count; }
 }                    
 "@
-
+} catch {
+    write-warning $_
+}
 
 function VCDMount-Iso([string]$isoPath, [switch]$waitUntilDriveAvailable) {
 	<#

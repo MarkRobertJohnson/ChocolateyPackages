@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>WinDirStat</id>
+        <version>1.1.2</version>
+        <title>WinDirStat</title>
+        <authors>MarkJohnson</authors>
+        <owners />
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>On start up, it reads the whole directory tree once and then presents it in three useful views:
+•The directory list, which resembles the tree view of the Windows Explorer but is sorted by file/subtree size,
+•The treemap, which shows the whole contents of the directory tree straight away,
+•The extension list, which serves as a legend and shows statistics about the file types.</description>
+        <summary>WinDirStat is a disk usage statistics viewer and cleanup tool for various versions of Microsoft Windows</summary>
+    </metadata>
+    <files>
+        <file src="tools\chocolateyInstall.ps1" target="tools\chocolateyInstall.ps1" />
+    </files>
+</package>
