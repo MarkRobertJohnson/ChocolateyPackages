@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>ProcessTamer</id>
+        <version>2.11.01</version>
+        <title>Process Tamer</title>
+        <authors>MarkJohnson</authors>
+        <owners />
+        <projectUrl>http://www.donationcoder.com/Software/Mouser/proctamer/</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Process Tamer is a tiny (140k) and super efficient utility for Microsoft Windows XP/2K/NT/Vista/Win7 that runs in your system tray and constantly monitors the cpu usage of other processes. When it sees a process that is overloading your cpu, it reduces the priority of that process temporarily, until its cpu usage returns to a reasonable level.</description>
+        <summary>There are many times when a process will hog your cpu, such as when converting audio/video files, or working with compressed archives. Because these processes completely consume the cpu, your system b</summary>
+    </metadata>
+    <files>
+        <file src="tools\chocolateyInstall.ps1" target="tools\chocolateyInstall.ps1" />
+    </files>
+</package>

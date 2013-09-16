@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>PowerGUI</id>
-        <version>3.6.0.22</version>
+        <version>3.7.0.92</version>
         <title>powerGUI</title>
         <authors>Quest Software</authors>
         <owners>Quest Software</owners>
@@ -22,18 +22,16 @@ Streamline PowerShell-based administration tasks by providing ready-made tools t
 Make the extensive capabilities of PowerShell accessible to users who are not comfortable with the text console environment 
 Help establish administration tiers by making specific tools available to specific groups of users, such as Active Directory administrators, help desk staff, and end users</description>
         <summary>PowerGUI is a comprehensive solution helping you get the most of Windows PowerShell.</summary>
-        <releaseNotes>New features in PowerGUI 3.6: 
-•Full support for Microsoft PowerShell 3.0 
-•Support for Windows 8 and Windows Server 2012 as end-user platform 
-•Rapid access to online documentation from Administrative Console and Script Editor 
-•Highlight all instances of a code element in script 
-•Path suggestions and autocomplete in scripts 
+        <releaseNotes>New features in PowerGUI 3.7: 
+•Added compatibility with PowerShell 3.0 for a number of PowerGUI Script Editor add-ons 
 
-For more information, see the PowerGUI What's New document. 
-
-http://powergui.org/servlet/KbServlet/download/4081-102-6511/PowerGUI_3.6_ReleaseNotes.htm</releaseNotes>
+For more information, see the PowerGUI What's New document.</releaseNotes>
         <copyright>© 2013 Quest Software, Inc.</copyright>
         <language>en-US</language>
         <tags>powershell gui editor syntax highlighting auto complete intellisense</tags>
     </metadata>
+    <files>
+        <file src="tools\chocolateyInstall.ps1" target="tools\chocolateyInstall.ps1" />
+        <file src="tools\DeploymentUtils.psm1" target="tools\DeploymentUtils.psm1" />
+    </files>
 </package>
