@@ -1,10 +1,12 @@
-﻿$newDisplayVersion = "3.7.0.92"
-$newversion = 50397184
-$installerKeyName = "{059637FE-5238-43A2-AF1B-30B830FA5168}"
+﻿$newDisplayVersion = "3.8.0.129"
+$newversion = 50855936
+$installerKeyName = "{4498748D-F54C-4B84-AD4D-F8DA827FF65E}"
 $packageName = "PowerGUI" 
-$downloadUrl = "http://community-downloads.quest.com/powergui/Release/3.7/PowerGUI.3.7.0.92.msi"
+$downloadUrl = "http://community-downloads.quest.com/powergui/Release/3.8/PowerGUI.3.8.0.129.msi"
 #NOTE: PowerGUI install/uninstall info located at 
-# HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{059637FE-5238-43A2-AF1B-30B830FA5168}
+#32bit OS: get-itemproperty HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$installerKeyName
+#64bit OS: get-itemproperty HKLM:\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\$installerKeyName
+
 
 $processor = Get-WmiObject Win32_Processor
 $is64bit = $processor.AddressWidth -eq 64
