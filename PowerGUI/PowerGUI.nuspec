@@ -2,11 +2,11 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>PowerGUI</id>
-        <version>3.7.0.92</version>
+        <version>3.8.0.129</version>
         <title>powerGUI</title>
         <authors>Quest Software</authors>
         <owners>Quest Software</owners>
-        <licenseUrl>http://powergui.org/servlet/KbServlet/download/3732-102-5883/PowerGUI_3.1_ReleaseNotes.htm</licenseUrl>
+        <licenseUrl>http://www.powergui.org/servlet/KbServlet/download/4121-102-6741/PowerGUI_3.8_ReleaseNotes.htm</licenseUrl>
         <projectUrl>http://powergui.org/index.jspa</projectUrl>
         <iconUrl>https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash3/41605_149727361745986_1205874903_q.jpg</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -22,8 +22,11 @@ Streamline PowerShell-based administration tasks by providing ready-made tools t
 Make the extensive capabilities of PowerShell accessible to users who are not comfortable with the text console environment 
 Help establish administration tiers by making specific tools available to specific groups of users, such as Active Directory administrators, help desk staff, and end users</description>
         <summary>PowerGUI is a comprehensive solution helping you get the most of Windows PowerShell.</summary>
-        <releaseNotes>New features in PowerGUI 3.7: 
-•Added compatibility with PowerShell 3.0 for a number of PowerGUI Script Editor add-ons 
+        <releaseNotes>New features in PowerGUI 3.8: 
+Now compiled executable can be run directly from network shares.
+Silent installation is now supported for scripts compiled as a service.
+There is an ability to select icon for compiled executable file.
+Target .NET framework can be now specified for compiled scripts.
 
 For more information, see the PowerGUI What's New document.</releaseNotes>
         <copyright>© 2013 Quest Software, Inc.</copyright>
