@@ -15,8 +15,8 @@ try {
 		Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$32BitUrl" -validExitCodes $validExitCodes
 	}
 
-	Write-ChocolateySuccess 'vcredist2010'
+	Write-ChocolateySuccess "$packageName"
 } catch {
-	Write-ChocolateyFailure 'vcredist2010' "$($_.Exception.Message)"
+	Write-ChocolateyFailure "$packageName" "$($_.Exception.Message)"
 	throw 
 }
