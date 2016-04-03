@@ -2,22 +2,20 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>RegShot</id>
-        <version>1.9.0</version>
+        <version>1.9.3</version>
         <title>RegShot</title>
         <authors>maddes,regshot,xhmikosr</authors>
         <owners>MarkRobertJohnson</owners>
         <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
         <projectUrl>http://sourceforge.net/projects/regshot/</projectUrl>
+		<packageSourceUrl>https://github.com/MarkRobertJohnson/ChocolateyPackages</packageSourceUrl>
         <iconUrl>http://njarb.com/wp-content/uploads/2012/06/RegshotPortable_128.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Regshot is an open-source (LGPL) registry compare utility that allows you to quickly take a snapshot of your registry and then compare it with a second one - done after doing system changes or install</description>
         <summary>Regshot is a small, free and open-source registry compare utility that allows you to quickly
 take a snapshot of your registry and then compare it with a second one - done after doing
 system changes</summary>
-        <releaseNotes>New to 1.9.0:
-x64 and Unicode versions.
-You can compare shots saved with different "UseLongRegHead" option.
-Loading ANSI hive files in Unicode builds and vice versa is not supported.</releaseNotes>
+        <releaseNotes></releaseNotes>
         <copyright>2013</copyright>
         <tags>registry comparison snapshot</tags>
         <dependencies>

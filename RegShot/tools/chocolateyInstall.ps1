@@ -6,7 +6,7 @@
     $binDir = ($mydir | Split-Path | Join-Path -ChildPath "bin")
     $toolsDir = ($mydir | Split-Path | Join-Path -ChildPath "tools")
     
-    $url = 'http://superb-dca2.dl.sourceforge.net/project/regshot/regshot/1.9.0/Regshot-1.9.0.7z'
+    $url = 'http://downloads.sourceforge.net/project/regshot/regshot/1.9.0/Regshot-1.9.0.7z'
     
     $processor = Get-WmiObject Win32_Processor
     $is64bit = $processor.AddressWidth -eq 64
