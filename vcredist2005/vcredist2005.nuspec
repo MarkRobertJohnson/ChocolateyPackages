@@ -15,6 +15,7 @@ NOTE: This will install both the x86 and x64 versions on a 64bit OS.  the x86 ve
     <summary>This package installs runtime components of C Runtime (CRT), Standard C++, ATL, MFC, OpenMP and MSDIA libraries. For libraries that support side-by-side deployment model (CRT, SCL, ATL, MFC, OpenMP) t</summary>
     <releaseNotes>* Oops, wrong package name in chocolateyInstall.ps1</releaseNotes>
     <copyright>http://www.microsoft.com/about/legal/en/us/IntellectualProperty/Copyright/Default.aspx</copyright>
+    <iconUrl>https://upload.wikimedia.org/wikipedia/en/d/d7/Visual_C%2B%2B_Icon.png</iconUrl>
     <tags>visual c++ redistributable 2005 studio</tags>
   </metadata>
 </package>

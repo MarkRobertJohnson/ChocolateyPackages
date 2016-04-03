@@ -8,7 +8,7 @@
         <owners>Microsoft</owners>
         <licenseUrl>http://msdn.microsoft.com/en-US/vstudio/hh857605</licenseUrl>
         <projectUrl>http://www.microsoft.com/en-US/download/details.aspx?id=30679</projectUrl>
-        <iconUrl>https://www.microsoft.com/global/ImageStore/PublishingImages/logos/56x56/microsoft_logo_56x56.png</iconUrl>
+        <iconUrl>https://upload.wikimedia.org/wikipedia/en/d/d7/Visual_C%2B%2B_Icon.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>The Visual C++ Redistributable Packages install runtime components that are required to run C++ applications built with Visual Studio 2012.</description>
         <summary>
