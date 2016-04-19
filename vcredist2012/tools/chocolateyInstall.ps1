@@ -12,7 +12,7 @@ try {
 	$is64bit = $is64bit = Get-ProcessorBits 64;
 	if($is64bit) {
 		#in case of x64 also install x86 vcredist
-		Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$32BitUrl" -validExitCodes $validExitCodes
+		Install-ChocolateyPackage "${packageName}_x86" "$installerType" "$silentArgs" "$32BitUrl" -validExitCodes $validExitCodes
 	}
 
 	Write-ChocolateySuccess 'vcredist2010'
