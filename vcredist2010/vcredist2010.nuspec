@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>vcredist2010</id>
-    <version>10.0.40219.2</version>
+    <version>10.0.40219.3</version>
     <title>Microsoft Visual C++ 2010 Redistributable Package</title>
     <authors>Microsoft</authors>
     <owners>Microsoft</owners>
@@ -16,5 +16,6 @@ NOTE: This will install both the x86 and x64 versions on a 64bit OS.  the x86 ve
     <releaseNotes>Added checksums for 32 and 64 bit versions</releaseNotes>
     <copyright>http://www.microsoft.com/about/legal/en/us/IntellectualProperty/Copyright/Default.aspx</copyright>
     <tags>visual c++ redistributable 2010 studio</tags>
+	<packageSourceUrl>https://github.com/MarkRobertJohnson/ChocolateyPackages/tree/master/vcredist2010</packageSourceUrl>
   </metadata>
 </package>
