@@ -10,7 +10,7 @@
   # installer, will assert administrative rights
    Install-ChocolateyPackage -packageName "$packageName" `
    						-fileType 'exe' `
-   						-url 'http://iweb.dl.sourceforge.net/project/vlc/2.0.0/win32/vlc-2.0.0-win32.exe' `
+   						-url 'https://downloads.sourceforge.net/project/vlc/2.0.0/win32/vlc-2.0.0-win32.exe' `
    						-silentArgs '/S'
    						#-url64bit '' `
    						#-validExitCodes 
