@@ -11,7 +11,7 @@
 
    Install-ChocolateyPackage -packageName "$packageName" `
    						-fileType 'exe' `
-   						-url 'http://iweb.dl.sourceforge.net/project/kdiff3/kdiff3/0.9.96/KDiff3Setup_0.9.96.exe' `
+   						-url 'https://downloads.sourceforge.net/project/kdiff3/kdiff3/0.9.96/KDiff3Setup_0.9.96.exe' `
    						-silentArgs '/S'
    						#-url64bit '' `
    						#-validExitCodes 

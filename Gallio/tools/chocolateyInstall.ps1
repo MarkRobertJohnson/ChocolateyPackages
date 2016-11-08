@@ -50,9 +50,9 @@ try {
 
     Install-ChocolateyPackage -packageName "$packageName" `
    						-fileType 'msi' `
-   						-url 'http://mb-unit.googlecode.com/files/GallioBundle-3.4.14.0-Setup-x86.msi' `
+   						-url 'https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/mb-unit/GallioBundle-3.4.14.0-Setup-x86.msi' `
    						-silentArgs '/quiet /norestart /lvoicewarmupx $msiexecLogPath'  `
-   						-url64bit 'http://mb-unit.googlecode.com/files/GallioBundle-3.4.14.0-Setup-x64.msi' `
+   						-url64bit 'https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/mb-unit/GallioBundle-3.4.14.0-Setup-x64.msi' `
    						-fileName 'GallioBundle-3.4.14.0-Setup-x86.msi' `
    						-fileName64 'GallioBundle-3.4.14.0-Setup-x64.msi'
    						#-validExitCodes
